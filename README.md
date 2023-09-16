@@ -1,4 +1,4 @@
-# Laravel Project README
+# README
 
 This is a Laravel project repository. Follow the steps below to set up and run the project on your local development environment.
 
@@ -35,6 +35,8 @@ After copying the env file please fill the db config
 
 `DB_PASSWORD=`
 
+After setting up the DB run the following commands: 
+
 `php artisan key:generate`
 
 `php artisan migrate`
@@ -47,5 +49,10 @@ Vue setup
 `npm i`
 
 `npm run dev`
+
+Run the app 
+
+`php artisan serve`
+
 
 
